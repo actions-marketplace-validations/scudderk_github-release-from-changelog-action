@@ -1,5 +1,19 @@
-# main
+# Change Log
+All notable changes to the saved-panel-animations package will be documented in this file.
 
-# v1.0.0 - December 27th, 2020
+The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
+and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
-- Initial release
+## [2.0.1] - 2022-12-09
+
+### Changed
+- Removed testing `puts`
+
+
+## [2.0.0] - 2022-12-09
+
+### Changed
+- Updated regular expression to meet new format requirements
+- CHANGELOG.md updated to meet new format requirements
+
+
