@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## [2.0.1] - 2022-12-09
 
 ### Changed
+- Fixed issues with regular expression thanks to [Tom Paganuzzi](https://github.com/Swyfte)
 - Removed testing `puts`
 
 
