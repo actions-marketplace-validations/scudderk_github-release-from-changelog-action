@@ -23,7 +23,7 @@ filenames = (ENV['INPUT_FILENAME'] || '').empty? ?
 # Extract changelog portion
 version = tag.sub(/^v/, '')
 re = %r{^\#{1,2}\s+\[#{Regexp.quote version}\]* - [0-9]{4}-[0-9]{2}-[0-9]{2}\s\s\#{1,3}[\s\S]*(?=\s\s\s)}
-raise "#{re}"
+puts "#{re}"
 filename = Dir['*'].find {|f| filenames.include?(f.downcase) }
 raise "Cannot find any valid changelog files from #{filenames.inspect}" if filename.nil?
 extracted = File.read(filename)[re, 1]
