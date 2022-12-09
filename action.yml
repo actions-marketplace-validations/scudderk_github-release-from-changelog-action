@@ -1,5 +1,5 @@
 name: Create GitHub Release From Changelog
-description: Creates a GitHub Release using Changelog file (based on Loren Segal's Action) - https://github.com/marketplace/actions/github-release-from-changelog
+description: Creates a GitHub Release using Changelog file (based on Loren Segal's Action)
 author: Loren Segal
 branding:
   icon: award
