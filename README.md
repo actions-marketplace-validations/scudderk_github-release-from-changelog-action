@@ -1,4 +1,5 @@
 # GitHub Release from Changelog Action
+[![.github/workflows/test.yml](https://github.com/scudderk/github-release-from-changelog-action/actions/workflows/test.yml/badge.svg)](https://github.com/scudderk/github-release-from-changelog-action/actions/workflows/test.yml)
 
 Action to create a GitHub release from a CHANGELOG file.
 
